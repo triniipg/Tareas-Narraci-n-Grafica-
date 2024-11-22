@@ -1,0 +1,62 @@
+/* Fondo general del sitio */
+body {
+    background-color: rgb(110, 127, 170); /* Color de fondo */
+    color: #000000; /* Color del texto principal */
+    font-family: Arial, sans-serif; /* Fuente legible y profesional */
+    line-height: 1.6; /* Mejora el espaciado del texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para los títulos principales */
+h1, h2 {
+    color: hwb(0 0% 100%); /* Blanco puro */
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Título específico para "lugares" (personalizado si se necesita) */
+.titulo-lugares {
+    color: hwb(0 0% 100%);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+
+/* Estilo para las secciones */
+section {
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px; /* Esquinas redondeadas */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: disc; /* Estilo de viñetas */
+    padding-left: 40px; /* Espaciado hacia la derecha */
+}
+
+li {
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con opacidad */
+    color: #ff0000; /* Texto en color contrastante */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
